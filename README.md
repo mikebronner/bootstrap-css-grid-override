@@ -1,3 +1,5 @@
+Work in progress, will be published to NPM soonish.
+
 # bootstrap-css-grid-override
 Update bootstrap 4 with native CSS-grid with graceful degradation.
 
