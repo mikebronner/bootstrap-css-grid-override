@@ -1,0 +1,145 @@
+@supports (display: grid) {
+    .row {
+        display: grid;
+        // grid-template-columns: repeat(12, 1fr);
+        grid-gap: $grid-gutter-width-base;
+    }
+
+    .col-xs-1 { grid-column: span 1; }
+    .col-xs-2 { grid-column: span 2; }
+    .col-xs-3 { grid-column: span 3; }
+    .col-xs-4 { grid-column: span 4; }
+    .col-xs-5 { grid-column: span 5; }
+    .col-xs-6 { grid-column: span 6; }
+    .col-xs-7 { grid-column: span 7; }
+    .col-xs-8 { grid-column: span 8; }
+    .col-xs-9 { grid-column: span 9; }
+    .col-xs-10 { grid-column: span 10; }
+    .col-xs-11 { grid-column: span 11; }
+    .col-xs-12 { grid-column: span 12; }
+
+    .offset-xs-1 { margin: 0; &:before { content: '<div class="col-xs-1"></div>'; } }
+    .offset-xs-2 { margin: 0; &:before { content: '<div class="col-xs-2"></div>'; } }
+    .offset-xs-3 { margin: 0; &:before { content: '<div class="col-xs-3"></div>'; } }
+    .offset-xs-4 { margin: 0; &:before { content: '<div class="col-xs-4"></div>'; } }
+    .offset-xs-5 { margin: 0; &:before { content: '<div class="col-xs-5"></div>'; } }
+    .offset-xs-6 { margin: 0; &:before { content: '<div class="col-xs-6"></div>'; } }
+    .offset-xs-7 { margin: 0; &:before { content: '<div class="col-xs-7"></div>'; } }
+    .offset-xs-8 { margin: 0; &:before { content: '<div class="col-xs-8"></div>'; } }
+    .offset-xs-9 { margin: 0; &:before { content: '<div class="col-xs-9"></div>'; } }
+    .offset-xs-10 { margin: 0; &:before { content: '<div class="col-xs-10"></div>'; } }
+    .offset-xs-11 { margin: 0; &:before { content: '<div class="col-xs-11"></div>'; } }
+    .offset-xs-12 { margin: 0; &:before { content: '<div class="col-xs-12"></div>'; } }
+
+    @include media-breakpoint-only(sm) {
+        .col-sm-1 { grid-column: span 1; }
+        .col-sm-2 { grid-column: span 2; }
+        .col-sm-3 { grid-column: span 3; }
+        .col-sm-4 { grid-column: span 4; }
+        .col-sm-5 { grid-column: span 5; }
+        .col-sm-6 { grid-column: span 6; }
+        .col-sm-7 { grid-column: span 7; }
+        .col-sm-8 { grid-column: span 8; }
+        .col-sm-9 { grid-column: span 9; }
+        .col-sm-10 { grid-column: span 10; }
+        .col-sm-11 { grid-column: span 11; }
+        .col-sm-12 { grid-column: span 12; }
+
+        .offset-sm-1 { margin: 0; &:before { content: '<div class="col-xs-1"></div>'; } }
+        .offset-sm-2 { margin: 0; &:before { content: '<div class="col-xs-2"></div>'; } }
+        .offset-sm-3 { margin: 0; &:before { content: '<div class="col-xs-3"></div>'; } }
+        .offset-sm-4 { margin: 0; &:before { content: '<div class="col-xs-4"></div>'; } }
+        .offset-sm-5 { margin: 0; &:before { content: '<div class="col-xs-5"></div>'; } }
+        .offset-sm-6 { margin: 0; &:before { content: '<div class="col-xs-6"></div>'; } }
+        .offset-sm-7 { margin: 0; &:before { content: '<div class="col-xs-7"></div>'; } }
+        .offset-sm-8 { margin: 0; &:before { content: '<div class="col-xs-8"></div>'; } }
+        .offset-sm-9 { margin: 0; &:before { content: '<div class="col-xs-9"></div>'; } }
+        .offset-sm-10 { margin: 0; &:before { content: '<div class="col-xs-10"></div>'; } }
+        .offset-sm-11 { margin: 0; &:before { content: '<div class="col-xs-11"></div>'; } }
+        .offset-sm-12 { margin: 0; &:before { content: '<div class="col-xs-12"></div>'; } }
+    }
+
+    @include media-breakpoint-only(md) {
+        .col-md-1 { grid-column: span 1; }
+        .col-md-2 { grid-column: span 2; }
+        .col-md-3 { grid-column: span 3; }
+        .col-md-4 { grid-column: span 4; }
+        .col-md-5 { grid-column: span 5; }
+        .col-md-6 { grid-column: span 6; }
+        .col-md-7 { grid-column: span 7; }
+        .col-md-8 { grid-column: span 8; }
+        .col-md-9 { grid-column: span 9; }
+        .col-md-10 { grid-column: span 10; }
+        .col-md-11 { grid-column: span 11; }
+        .col-md-12 { grid-column: span 12; }
+
+        .offset-md-1 { margin: 0; &:before { content: '<div class="col-xs-1"></div>'; } }
+        .offset-md-2 { margin: 0; &:before { content: '<div class="col-xs-2"></div>'; } }
+        .offset-md-3 { margin: 0; &:before { content: '<div class="col-xs-3"></div>'; } }
+        .offset-md-4 { margin: 0; &:before { content: '<div class="col-xs-4"></div>'; } }
+        .offset-md-5 { margin: 0; &:before { content: '<div class="col-xs-5"></div>'; } }
+        .offset-md-6 { margin: 0; &:before { content: '<div class="col-xs-6"></div>'; } }
+        .offset-md-7 { margin: 0; &:before { content: '<div class="col-xs-7"></div>'; } }
+        .offset-md-8 { margin: 0; &:before { content: '<div class="col-xs-8"></div>'; } }
+        .offset-md-9 { margin: 0; &:before { content: '<div class="col-xs-9"></div>'; } }
+        .offset-md-10 { margin: 0; &:before { content: '<div class="col-xs-10"></div>'; } }
+        .offset-md-11 { margin: 0; &:before { content: '<div class="col-xs-11"></div>'; } }
+        .offset-md-12 { margin: 0; &:before { content: '<div class="col-xs-12"></div>'; } }
+    }
+
+    @include media-breakpoint-only(lg) {
+        .col-lg-1 { grid-column: span 1; }
+        .col-lg-2 { grid-column: span 2; }
+        .col-lg-3 { grid-column: span 3; }
+        .col-lg-4 { grid-column: span 4; }
+        .col-lg-5 { grid-column: span 5; }
+        .col-lg-6 { grid-column: span 6; }
+        .col-lg-7 { grid-column: span 7; }
+        .col-lg-8 { grid-column: span 8; }
+        .col-lg-9 { grid-column: span 9; }
+        .col-lg-10 { grid-column: span 10; }
+        .col-lg-11 { grid-column: span 11; }
+        .col-lg-12 { grid-column: span 12; }
+
+        .offset-lg-1 { margin: 0; &:before { content: '<div class="col-xs-1"></div>'; } }
+        .offset-lg-2 { margin: 0; &:before { content: '<div class="col-xs-2"></div>'; } }
+        .offset-lg-3 { margin: 0; &:before { content: '<div class="col-xs-3"></div>'; } }
+        .offset-lg-4 { margin: 0; &:before { content: '<div class="col-xs-4"></div>'; } }
+        .offset-lg-5 { margin: 0; &:before { content: '<div class="col-xs-5"></div>'; } }
+        .offset-lg-6 { margin: 0; &:before { content: '<div class="col-xs-6"></div>'; } }
+        .offset-lg-7 { margin: 0; &:before { content: '<div class="col-xs-7"></div>'; } }
+        .offset-lg-8 { margin: 0; &:before { content: '<div class="col-xs-8"></div>'; } }
+        .offset-lg-9 { margin: 0; &:before { content: '<div class="col-xs-9"></div>'; } }
+        .offset-lg-10 { margin: 0; &:before { content: '<div class="col-xs-10"></div>'; } }
+        .offset-lg-11 { margin: 0; &:before { content: '<div class="col-xs-11"></div>'; } }
+        .offset-lg-12 { margin: 0; &:before { content: '<div class="col-xs-12"></div>'; } }
+    }
+
+    @include media-breakpoint-only(xl) {
+        .col-xl-1 { grid-column: span 1; }
+        .col-xl-2 { grid-column: span 2; }
+        .col-xl-3 { grid-column: span 3; }
+        .col-xl-4 { grid-column: span 4; }
+        .col-xl-5 { grid-column: span 5; }
+        .col-xl-6 { grid-column: span 6; }
+        .col-xl-7 { grid-column: span 7; }
+        .col-xl-8 { grid-column: span 8; }
+        .col-xl-9 { grid-column: span 9; }
+        .col-xl-10 { grid-column: span 10; }
+        .col-xl-11 { grid-column: span 11; }
+        .col-xl-12 { grid-column: span 12; }
+
+        .offset-xl-1 { margin: 0; &:before { content: '<div class="col-xs-1"></div>'; } }
+        .offset-xl-2 { margin: 0; &:before { content: '<div class="col-xs-2"></div>'; } }
+        .offset-xl-3 { margin: 0; &:before { content: '<div class="col-xs-3"></div>'; } }
+        .offset-xl-4 { margin: 0; &:before { content: '<div class="col-xs-4"></div>'; } }
+        .offset-xl-5 { margin: 0; &:before { content: '<div class="col-xs-5"></div>'; } }
+        .offset-xl-6 { margin: 0; &:before { content: '<div class="col-xs-6"></div>'; } }
+        .offset-xl-7 { margin: 0; &:before { content: '<div class="col-xs-7"></div>'; } }
+        .offset-xl-8 { margin: 0; &:before { content: '<div class="col-xs-8"></div>'; } }
+        .offset-xl-9 { margin: 0; &:before { content: '<div class="col-xs-9"></div>'; } }
+        .offset-xl-10 { margin: 0; &:before { content: '<div class="col-xs-10"></div>'; } }
+        .offset-xl-11 { margin: 0; &:before { content: '<div class="col-xs-11"></div>'; } }
+        .offset-xl-12 { margin: 0; &:before { content: '<div class="col-xs-12"></div>'; } }
+    }
+}
