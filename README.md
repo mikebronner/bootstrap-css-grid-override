@@ -2,9 +2,9 @@
 Update bootstrap 4 with native CSS-grid with graceful degradation.
 
 ## Supported Classes
-- row
-- col-*-*
-- offset-*-*
+- `row`
+- `col-*-*`
+- `offset-*-*`
 
 ## Example
 Include it in your master SCSS **after** you include bootstrap:
